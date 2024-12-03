@@ -79,6 +79,7 @@
             "#16A085"   // Verde azulado
         ];
 
+        
         document.body.addEventListener('click', () => {
             // Selecciona un color aleatorio de la lista de colores
             const randomColor = colores[Math.floor(Math.random() * colores.length)];
