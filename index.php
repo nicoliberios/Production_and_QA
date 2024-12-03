@@ -67,7 +67,7 @@
     </table>
 
     <script>
-        // Lista de colores bonitos y suaves
+        // Lista de colores
         const colores = [
             "#F1C40F",  // Amarillo brillante
             "#E74C3C",  // Rojo coral
@@ -80,7 +80,7 @@
         ];
 
         document.body.addEventListener('click', () => {
-            // Selecciona un color aleatorio de la lista de colores
+            // color aleatorio
             const randomColor = colores[Math.floor(Math.random() * colores.length)];
             document.body.style.backgroundColor = randomColor;
         });
