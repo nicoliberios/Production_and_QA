@@ -39,6 +39,7 @@
         td {
             background-color: #ecf0f1;
         }
+        
     </style>
 </head>
 <body>
