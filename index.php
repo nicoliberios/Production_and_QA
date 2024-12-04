@@ -44,7 +44,7 @@
 </head>
 <body>
     <h1>Villegas</h1>
-    <h2>El pueblo magico</h2>
+    <h2>El pueblo magis</h2>
 
     <table>
         <thead>
@@ -52,7 +52,7 @@
                 <th>Fiestas</th>
                 <th>Rios</th>
                 <th>Tradicion</th>
-                <th>Playas</th>
+                <th>Piscinas</th>
                 <th>Agricultura</th>
             </tr>
         </thead>
@@ -80,6 +80,7 @@
             "#16A085"   // Verde azulado
         ];
 
+        
         document.body.addEventListener('click', () => {
             // color aleatorio
             const randomColor = colores[Math.floor(Math.random() * colores.length)];
